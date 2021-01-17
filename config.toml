@@ -1,3 +1,25 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://thefakevip.xyz"
+languageCode = "en-gb"
+title = "TheFake VIP"
+
+[menu]
+  [[menu.social]]
+  identifier = "mastodon"
+  name = "Mastodon (@thefake_vip@linuxrocks.online)"
+  url = "https://linuxrocks.online/@thefake_vip"
+  [[menu.social]]
+  identifier = "twitter"
+  name = "Twitter (@blind_comp)"
+  url = "https://twitter.com/blind_comp"
+  [[menu.social]]
+  identifier = "youtube"
+  name = "YouTube (TheFake VIP)"
+  url = "https://www.youtube.com/channel/UCRUCCRK2TY0Ns0MlX0qVhYg"
+  [[menu.social]]
+  identifier = "github"
+  name = "Github (mcb2003)"
+  url = "https://github.com/mcb2003"
+  [[menu.social]]
+  identifier = "keybase"
+  name = "Keybase (thefake_vip)"
+  url = "https://keybase.io/thefake_vip"
