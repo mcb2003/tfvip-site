@@ -5,7 +5,10 @@ draft: true
 menu: main
 ---
 
+# Welcome to my corner of the internet!
 
-# Test Content
+Hi! My name is Michael Connor Buchan, but I go by
+  **TheFake VIP** almost everywhere on the internet. Welcome to my personal site.
 
-This is some test content.
+  I'm a visually impaired computer programmer, hardware enthusiast, open source advocate, web
+  developer and, above all, just a complete nerd. 
