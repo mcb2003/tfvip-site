@@ -23,3 +23,7 @@ title = "TheFake VIP"
   identifier = "keybase"
   name = "Keybase (thefake_vip)"
   url = "https://keybase.io/thefake_vip"
+  [[menu.social]]
+  identifier = "discord"
+  name = "Discord (VIP Central server)"
+  url = "https://discord.gg/nzccydS"
