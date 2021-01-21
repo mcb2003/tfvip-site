@@ -27,3 +27,7 @@ title = "TheFake VIP"
   identifier = "discord"
   name = "Discord (VIP Central server)"
   url = "https://discord.gg/nzccydS"
+  [[menu.social]]
+  identifier = "facebook"
+  name = "Facebook (Michael Buchan)"
+  url = "https://www.facebook.com/TheFakeVIP"
