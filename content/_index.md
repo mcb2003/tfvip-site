@@ -19,7 +19,7 @@ Let's break that down a bit:
 
 Visually Impaired
 
-:   I was born with [Leber congenital amaurosis][lca],[Photophobia][pp] and [Nystagmus][ny]. These mean I'm almost, but not quite completely blind and struggle to see in brighter conditions. I can, however, see colour, though my colour perseption is also reduced.
+:   I was born with [Leber congenital amaurosis][lca],[Photophobia][pp] and [Nystagmus][ny]. This means I'm almost, but not quite completely blind and struggle to see in brighter conditions. I can, however, see colour, though my colour perseption is also reduced.
 
     [lca]: <https://en.wikipedia.org/wiki/Leber%27s_congenital_amaurosis>
     [pp]: <https://en.wikipedia.org/wiki/Photophobia>
@@ -49,9 +49,9 @@ Web Developer
 
 Open Source Advocate
 
-:   I'm a huge proponent of [free, libre][fs], [open source][os] software. Developing the software that runs our lives out in the open increases security, incourages innovation, prevents monopolistic practices and above all, makes technology accessible to everyone.
+:   I'm a huge proponent of [free, libre][fs], [open source][os] software. Developing the software that runs our lives out in the open increases security, encourages innovation, prevents monopolistic practices and above all, makes technology accessible to everyone.
 
-    I'm also a believer in [a decentralised, federated][fed] [self-hosted][selfhosted]  web and projects like [ActivityPub][ap], [Mastodon][mastodon], [Matrix][matrix], [Bit Torrent][bt], [NextCloud][nc] and, if implemented correctly, [Crypto Currency][crypto].
+    I'm also a believer in [a decentralised, federated][fed] [self-hosted][selfhosted]  web and projects like [ActivityPub][ap], [Mastodon][mastodon], [Matrix][matrix], [Bit Torrent][bt], [NextCloud][nc] and, if implemented correctly, [Crypto Currincy][crypto].
 
     [fs]: <https://en.wikipedia.org/wiki/Free_software>
     [os]: <https://en.wikipedia.org/wiki/Open-source_software>
