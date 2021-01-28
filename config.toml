@@ -2,6 +2,12 @@ baseURL = "https://mcb2003.github.io"
 languageCode = "en-gb"
 title = "TheFake VIP"
 
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    lineNos = true
+    noClasses = false
+
 [menu]
   [[menu.social]]
   identifier = "mastodon"
