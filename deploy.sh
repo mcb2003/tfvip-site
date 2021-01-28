@@ -8,4 +8,4 @@ cd public
 git add .
 git commit -m "Regenerate site: $MSG"
 git push origin main # Deploy
-
+cd ..
