@@ -12,6 +12,8 @@ the internet, and from life in general, and consolidate it into something that c
 [bc]: <https://blindcomputing.org>
 [blogger]: <https://blogger.google.com>
 
+<!--more-->
+
 Recently, I rediscovered the lost, underappreciated internet relics that are RSS feeds, after I finally found a
 good RSS feed reader for iOS called [Net News Wire][nnw]. This, at long last, caused me to give reading blogs a
 propper shot, so I started reading blogs like [Faster Than Lime][ftl] and [Drew DeVault's Blog][ddb]. This lead
