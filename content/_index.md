@@ -52,7 +52,7 @@ Open Source Advocate
 
 : I'm a huge proponent of [free, libre][fs], [open source][os] software. Developing the software that runs our lives out in the open increases security, encourages innovation, prevents monopolistic practices and above all, makes technology accessible to everyone.
 
-    I'm also a believer in [a decentralised, federated][fed] [self-hosted][selfhosted]  web and projects like [ActivityPub][ap], [Mastodon][mastodon], [Matrix][matrix], [Bit Torrent][bt], [NextCloud][nc] and, if implemented correctly, [Crypto Currincy][crypto].
+    I'm also a believer in [a decentralised, federated][fed] [self-hosted][selfhosted]  web and projects like [ActivityPub][ap], [Mastodon][mastodon], [Matrix][matrix], [Bit Torrent][bt], [NextCloud][nc] and, if implemented correctly, [Crypto Currency][crypto].
 
     [fs]: <https://en.wikipedia.org/wiki/Free_software>
     [os]: <https://en.wikipedia.org/wiki/Open-source_software>
