@@ -12,23 +12,28 @@ title = "TheFake VIP"
   [[menu.social]]
   identifier = "mastodon"
   name = "Mastodon (@thefake_vip@linuxrocks.online)"
-  weight =  -70
+  weight =  -80
   url = "https://linuxrocks.online/@thefake_vip"
   [[menu.social]]
   identifier = "twitter"
   name = "Twitter (@blind_comp)"
-  weight = -60
+  weight = -70
   url = "https://twitter.com/blind_comp"
   [[menu.social]]
   identifier = "youtube"
   name = "YouTube (TheFake VIP)"
-  weight = -50
+  weight = -60
   url = "https://www.youtube.com/channel/UCRUCCRK2TY0Ns0MlX0qVhYg"
   [[menu.social]]
   identifier = "github"
   name = "Github (mcb2003)"
-  weight = -40
+  weight = -50
   url = "https://github.com/mcb2003"
+  [[menu.social]]
+  identifier = "gitlab"
+  name = "Gitlab (mcb2003)"
+  weight = -40
+  url = "https://gitlab.com/mcb2003"
   [[menu.social]]
   identifier = "discord"
   name = "Discord (VIP Central server)"
