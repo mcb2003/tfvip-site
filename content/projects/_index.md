@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2023-01-27T15:22:29Z
-draft: true
+draft: false
 menu:
   main:
     identifier: projects

@@ -1,7 +1,7 @@
 ---
 title: "Blind Computing"
 date: 2023-01-27T17:12:36Z
-draft: true
+draft: false
 menus:
   main:
       parent: projects

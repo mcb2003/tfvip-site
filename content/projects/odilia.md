@@ -2,7 +2,7 @@
 title: "Odilia"
 subtitle: Dragging Linux accessibility into the 2020s, one step at a time!
 date: 2023-01-27T15:55:15Z
-draft: true
+draft: false
 menus:
   main:
       parent: projects
