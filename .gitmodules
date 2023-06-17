@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/mcb2003/mcb2003.github.io.git
-	branch = main
