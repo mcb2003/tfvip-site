@@ -9,19 +9,46 @@ menu: main
     body {
         font-family: 'Arial', sans-serif;
         font-size: 16px;
-        line-height: 1.6;
+        line-height: 1.45;
     }
 
+    /*
     section {
         margin-bottom: 20px;
+    }
+    */
+
+    h1 {
+        font-size: 1.75rem;
+        /* h3 size in Bootstrap 5 */
+        font-weight: 500;
+        /* match h3 font weight */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        /* h4 size */
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        /* h5 size */
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 1rem;
+        /* h6 size */
+        font-weight: 500;
     }
 </style>
 
 <header class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
         <img class="img-fluid img-thumbnail" src="./my-profile-pic.jpeg" alt="Picture of me">
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-10">
         <h2 aria-level="1">Michael Connor Buchan</h2>
         <h4 role="presentation">Meticulous &middot; Driven &middot; Tenacious</h4>
         <p>I'm an enthusiastic <strong>University of Stirling Computing Science undergraduate</strong> by day, a
@@ -35,33 +62,34 @@ menu: main
 <div class="row">
     <div class="col" aria-labelledby="contact-heading">
         <h3 id="contact-heading" aria-level="2">Contact Me</h3>
-        <ul class="list-group">
-            <li class="list-group-item">
+        <ul class="list-unstyled" style="padding-left: 0;">
+            <li style="display: flex; align-items: center; gap: 0.5em;">
                 <i aria-hidden="true" class="fas fa-envelope"></i>
                 <span class="visually-hidden">Email: </span>
                 <a href="mailto:mikey@blindcomputing.org">mikey@blindcomputing.org</a>
             </li>
-            <li class="list-group-item">
-                <i aria-hidden="true" class="fas fa-phone"></i>
-                <span class="visually-hidden">Phone: </span>
-                <a href="tel:+447572814659">+44 7572 814 659</a>
+            <li style="display: flex; align-items: center; gap: 0.5em;"></li>
+            <i aria-hidden="true" class="fas fa-phone"></i>
+            <span class="visually-hidden">Phone: </span>
+            <a href="tel:+447572814659">+44 7572 814 659</a>
             </li>
-            <li class="list-group-item">
+            <li style="display: flex; align-items: center; gap: 0.5em;">
                 <i aria-hidden="true" class="fas fa-globe"></i>
                 <span class="visually-hidden">Web: </span>
                 <a href="https://thefake.vip" target="blank">thefake.vip</a>
             </li>
-            <li class="list-group-item">
+            <li style="display: flex; align-items: center; gap: 0.5em;">
                 <i aria-hidden="true" class="fab fa-linkedin"></i>
                 <span class="visually-hidden">Linkedin: </span>
                 <a href="https://www.linkedin.com/in/michael-buchan-011995298/"
                     target="blank">linkedin.com/in/michael-buchan-011995298</a>
             </li>
-            <li class="list-group-item">
+            <li style="display: flex; align-items: center; gap: 0.5em;">
                 <i aria-hidden="true" class="fab fa-github"></i>
                 <span class="visually-hidden">Github: </span>
                 <a href="https://github.com/mcb2003" target="blank">github.com/mcb2003</a>
             </li>
+        </ul>
         </ul>
 
         <br>
@@ -107,53 +135,29 @@ menu: main
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title" aria-level="3">A Levels</h4>
-                <table class="table table-bordered w-100">
-                    <tbody>
-                        <tr>
-                            <th scope="row">Computer Science</th>
-                            <td>A*</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Maths</th>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Physics</th>
-                            <td>A</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <ul class="list-unstyled" style="column-count: 2; -webkit-column-count: 2; -moz-column-count: 2;">
+                    <li><strong>Computer Science:</strong> A*</li>
+                    <li><strong>Maths:</strong> A</li>
+                    <li><strong>Physics:</strong> A</li>
+                </ul>
             </div>
         </div>
 
         <div class="card">
             <div class="card-body">
                 <h4 aria-level="3">GCSEs</h4>
-                <table class=" table table-bordered w-100">
-                    <tbody>
-                        <tr>
-                            <th scope="row">Computer&nbsp;Science, Physics, English&nbsp;Language,
-                                English&nbsp;Literature, Religious&nbsp;Education</th>
-                            <td>9</td>
-                        <tr>
-                            <th scope="row">BTEC Creative&nbsp;Media</th>
-                            <td>D*</td>
-                        </tr>
-                        </tr>
-                        <tr>
-                            <th scope="row">Maths</th>
-                            <td>8</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Biology, Chemistry</th>
-                            <td>7</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Design&nbsp;Technology (Product&nbsp;Design)</th>
-                            <td>6</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <ul class="list-unstyled" style="column-count: 2; -webkit-column-count: 2; -moz-column-count: 2;">
+                    <li><strong>Computer Science</strong>: 9</li>
+                    <li><strong>Physics</strong>: 9</li>
+                    <li><strong>English Language</strong>: 9</li>
+                    <li><strong>English Literature</strong>: 9</li>
+                    <li><strong>Religious Education</strong>: 9</li>
+                    <li><strong>BTEC Creative Media</strong>: D*</li>
+                    <li><strong>Maths</strong>: 8</li>
+                    <li><strong>Biology</strong>: 7</li>
+                    <li><strong>Chemistry</strong>: 7</li>
+                    <li><strong>Design Technology (Product Design)</strong>: 6</li>
+                </ul>
             </div>
         </div>
     </div>
