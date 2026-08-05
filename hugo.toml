@@ -1,6 +1,7 @@
 baseURL = "https://thefake.vip"
 languageCode = "en-gb"
 title = "TheFake VIP"
+copyright = "Copyright © Michael Connor Buchan"
 
 [params]
 description = """
