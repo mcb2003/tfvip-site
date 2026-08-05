@@ -1,31 +1,42 @@
-name: CI
+name: Build and deploy
+
 on:
   push:
     branches:
       - master
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+    runs-on: ubuntu-24.04
 
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v3
+      - name: Check out repository
+        uses: actions/checkout@v6
         with:
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0
+          persist-credentials: false
 
-      - name: Setup hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.112.3"
+          hugo-version: "0.154.5"
+          extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --gc --minify --panicOnWarning --printPathWarnings --printI18nWarnings
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v4
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY }}
           external_repository: mcb2003/mcb2003.github.io
@@ -33,4 +44,3 @@ jobs:
           user_name: github-actions
           user_email: actions@github.com
           publish_branch: main
-            #cname: thefakevip.xyz
