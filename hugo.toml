@@ -12,6 +12,9 @@ name = "Michael Connor Buchan"
 email = "mikey@blindcomputing.org"
 url = "https://thefake.vip"
 
+[params.elemental]
+container = "container-md"
+
 [menu]
   [[menu.social]]
   identifier = "mastodon"
@@ -24,9 +27,14 @@ url = "https://thefake.vip"
   weight = -60
   url = "https://www.youtube.com/channel/UCRUCCRK2TY0Ns0MlX0qVhYg"
   [[menu.social]]
+  identifier = "discord"
+  name = "Discord (@TheFakeVIP)"
+  weight = -50
+  url = "https://discord.com/users/295179787268259851"
+  [[menu.social]]
   identifier = "github"
   name = "Github (mcb2003)"
-  weight = -50
+  weight = -40
   url = "https://github.com/mcb2003"
 
 [module]
