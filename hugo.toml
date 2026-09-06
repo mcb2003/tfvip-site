@@ -17,6 +17,12 @@ container = "container-md"
 
 [menu]
   [[menu.social]]
+  identifier = "envelope-fill"
+  name = "Email (mikey@blindcomputing.org)"
+  weight = -100
+  url = "mailto:mikey@blindcomputing.org"
+
+  [[menu.social]]
   identifier = "mastodon"
   name = "Mastodon (@thefake_vip@linuxrocks.online)"
   weight =  -80
