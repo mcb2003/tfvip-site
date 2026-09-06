@@ -21,27 +21,31 @@ container = "container-md"
   name = "Email (mikey@blindcomputing.org)"
   weight = -100
   url = "mailto:mikey@blindcomputing.org"
-
+  params.rel = "noopener me"
   [[menu.social]]
   identifier = "mastodon"
   name = "Mastodon (@thefake_vip@linuxrocks.online)"
   weight =  -80
   url = "https://linuxrocks.online/@thefake_vip"
+  params.rel = "noopener me"
   [[menu.social]]
   identifier = "youtube"
   name = "YouTube (TheFake VIP)"
   weight = -60
   url = "https://www.youtube.com/channel/UCRUCCRK2TY0Ns0MlX0qVhYg"
+  params.rel = "noopener me"
   [[menu.social]]
   identifier = "discord"
   name = "Discord (@TheFakeVIP)"
   weight = -50
   url = "https://discord.com/users/295179787268259851"
+  params.rel = "noopener me"
   [[menu.social]]
   identifier = "github"
   name = "Github (mcb2003)"
   weight = -40
   url = "https://github.com/mcb2003"
+  params.rel = "noopener me"
 
 [module]
     [[module.imports]]
