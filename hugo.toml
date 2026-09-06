@@ -5,7 +5,9 @@ copyright = "Copyright © Michael Connor Buchan"
 
 [params]
 shortTitle = "michael Buchan"
-description = """
+description = """\
+    I write low-level software, resurrect obsolete hardware, build questionable networks, care deeply about free / open source software, and \
+    believe computers and the software they run should be understandable, hackable and owned by the people using them.\
 """
 
 [params.author]
