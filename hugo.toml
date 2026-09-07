@@ -16,7 +16,10 @@ email = "mikey@blindcomputing.org"
 url = "https://thefake.vip"
 
 [params.elemental]
-container = "container-md"
+    container = "container-md"
+
+[markup]
+    _merge = "deep"
 
 [menu]
   [[menu.social]]
