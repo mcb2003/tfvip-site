@@ -8,6 +8,8 @@ basics:
     alt: Picture of me
   url: https://thefake.vip
   url_label: thefake.vip
+  location:
+    countryCode: GB
   summary: >-
     I write low-level software, repurpose obsolete hardware, run Linux servers at
     home and care deeply about open source.
