@@ -251,6 +251,7 @@ education:
   a-levels:
     institution_id: thorp-academy
     name: 3 A Levels
+    study_type: A Levels
     date:
       start: "2019"
       end: "2021"
@@ -266,6 +267,7 @@ education:
   gcses:
     institution_id: thorp-academy
     name: 10 GCSEs
+    study_type: GCSEs and equivalent
     date:
       start: "2016"
       end: "2019"
