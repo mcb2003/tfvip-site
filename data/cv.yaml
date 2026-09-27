@@ -25,12 +25,16 @@ basics:
 organizations:
   citizens-advice-gateshead:
     name: Citizens Advice Gateshead
+    url: https://citizensadvicegateshead.org.uk/
   university-of-stirling-computing-club:
     name: University of Stirling Computing Club
+    url: https://stirlingcomputer.club
   university-of-stirling:
     name: University of Stirling
+    url: https://stir.ac.uk
   thorp-academy:
     name: Thorp Academy
+    url: https://tha.northerneducationtrust.org/
 
 skills:
   c:
