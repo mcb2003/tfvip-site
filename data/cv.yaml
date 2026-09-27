@@ -1,0 +1,290 @@
+schema_version: 1
+
+basics:
+  name: Michael Connor Buchan
+  label: First-class Computing Science Graduate
+  image:
+    resource: me.png
+    alt: Picture of me
+  url: https://thefake.vip
+  url_label: thefake.vip
+  summary: >-
+    I write low-level software, repurpose obsolete hardware, run Linux servers at
+    home and care deeply about open source.
+  notes: (References available upon request)
+  profiles:
+    github:
+      name: GitHub
+      url: https://github.com/mcb2003
+      label: github.com/mcb2003
+    linkedin:
+      name: LinkedIn
+      url: https://www.linkedin.com/in/michael-buchan-011995298/
+      label: linkedin.com/in/michael-buchan-011995298
+
+organizations:
+  citizens-advice-gateshead:
+    name: Citizens Advice Gateshead
+  university-of-stirling-computing-club:
+    name: University of Stirling Computing Club
+  university-of-stirling:
+    name: University of Stirling
+  thorp-academy:
+    name: Thorp Academy
+
+skills:
+  c:
+    name: C
+  linux:
+    name: Linux
+  lmdb:
+    name: LMDB
+  cpp:
+    name: C++
+  accessibility:
+    name: accessibility
+  ui:
+    name: UI
+  python:
+    name: Python
+  cython:
+    name: Cython
+  audio:
+    name: Audio
+  embedded:
+    name: Embedded
+  drivers:
+    name: drivers
+
+projects:
+  indexing-daemon:
+    name: "Dissertation: Indexing Daemon"
+    description: >-
+      a reactive file metadata indexing and storage daemon, designed to power
+      efficient desktop file search.
+    links:
+      source:
+        label: "GitHub: mcb2003/dissertation"
+        url: https://github.com/mcb2003/dissertation
+        primary: true
+    skill_ids:
+      - c
+      - linux
+      - lmdb
+    highlights:
+      kernel-apis: >-
+        Worked with low-level kernel APIs covering file descriptors and inodes,
+        event notification, `/proc`, POSIX threads and I/O multiplexing.
+      portable-index-records: >-
+        Stored **portable, binary index records** in LMDB in a suitable format
+        for search queries.
+      constrained-resources: >-
+        Designed for **constrained resource environments**, considering CPU use,
+        memory growth, I/O behaviour, page-cache interaction and wakeups.
+      evaluation: >-
+        Evaluated **correctness and performance** with generated datasets, stress
+        testing, resource monitoring and verification against canonical
+        filesystem state.
+    default_highlights:
+      - kernel-apis
+      - portable-index-records
+      - constrained-resources
+      - evaluation
+
+  rmlui-accessibility:
+    name: RmlUi Accessibility
+    description: >-
+      A plugin for a user interface renderer designed for games, allowing screen
+      reader users to read and interact with the interface using AccessKit.
+    links:
+      source:
+        label: "GitHub: mcb2003/rmlui-accessibility"
+        url: https://github.com/mcb2003/rmlui-accessibility
+        primary: true
+      ai-notice:
+        label: AI notice
+        url: https://github.com/mcb2003/rmlui-accessibility#ai-assisted-development-notice
+    skill_ids:
+      - cpp
+      - accessibility
+      - ui
+    highlights:
+      incremental-updates: >-
+        Designed and built **incremental algorithms and efficient data
+        structures** to detect, coalesce and publish accessibility tree updates
+        **without rebuilding the whole tree**.
+      integration-testing: >-
+        Built **end-to-end integration tests** against OS accessibility APIs and
+        the Orca screen reader.
+      ai-assisted-development: >-
+        Used **AI agents** to implement and iterate, but **independently
+        designed** its architecture and **reviewed its code** ([AI
+        notice](https://github.com/mcb2003/rmlui-accessibility#ai-assisted-development-notice)).
+    default_highlights:
+      - incremental-updates
+      - integration-testing
+      - ai-assisted-development
+
+  cyal:
+    name: Cyal
+    description: An idiomatic Python wrapper for the OpenAL 3D audio library.
+    links:
+      source:
+        label: "GitHub: lower-elements/cyal"
+        url: https://github.com/lower-elements/cyal
+        primary: true
+    skill_ids:
+      - python
+      - cython
+      - audio
+    highlights:
+      pythonic-native-api: >-
+        Designed **Pythonic abstractions over a native C API**, with automatic
+        resource cleanup, exceptions and object lifetime management.
+      native-extension-toolchain: >-
+        Built a **native Python extension toolchain** which compiles multiple
+        Cython modules into CPython extension modules.
+      release-automation: >-
+        Automated cross-platform source and binary PyPI releases using **GitHub
+        Actions CI/CD**.
+    default_highlights:
+      - pythonic-native-api
+      - native-extension-toolchain
+      - release-automation
+
+  paper-linux:
+    name: Paper Linux
+    description: The beginnings of an open-source alternative OS for e-readers.
+    links:
+      source:
+        label: "GitHub: lower-elements/paper-linux"
+        url: https://github.com/lower-elements/paper-linux
+        primary: true
+    skill_ids:
+      - linux
+      - embedded
+      - drivers
+    highlights:
+      legacy-kernel-userspace: >-
+        **Ported modern Linux userspace to a legacy 2.6 vendor kernel**, patching
+        software as appropriate.
+      hardware-bring-up: >-
+        Brought up **modern Linux on 2010-eara e-reader hardware**, with Device
+        Tree, power, input, storage and SoC support.
+      reverse-engineering-tooling: >-
+        Built **custom developer and MCP tooling** to index and cross-reference
+        kernel revisions, symbols and datasheets to help **reverse engineer
+        device behaviour**.
+    default_highlights:
+      - legacy-kernel-userspace
+      - hardware-bring-up
+      - reverse-engineering-tooling
+
+volunteer:
+  citizens-advice-gateshead-accessibility-consultant:
+    organization_id: citizens-advice-gateshead
+    position: Accessibility consultant
+    date:
+      start: "2025-08"
+      end: "2025-08"
+    highlights:
+      accessibility-assessment: >-
+        **Assessed the accessibility** of the organisation's internal and
+        external documents, services and procedures for users of assistive
+        technologies.
+      accessibility-report: >-
+        Constructed a **detailed, rigorous report**, outlining accessibility
+        issues and potential solutions.
+    default_highlights:
+      - accessibility-assessment
+      - accessibility-report
+
+affiliations:
+  university-of-stirling-computing-club:
+    organization_id: university-of-stirling-computing-club
+    roles:
+      secretary:
+        name: Secretary
+        date:
+          start: "2023"
+          end: "2024"
+      president:
+        name: President
+        date:
+          start: "2024"
+          end: "2025"
+      vice-president:
+        name: Vice President
+        date:
+          start: "2025"
+          end: "2026"
+    role_order:
+      - secretary
+      - president
+      - vice-president
+    highlights:
+      teamwork: >-
+        Developed my **team-working skills**, working with committee members and
+        collaborating with other societies to host hands-on programming, gaming
+        and social sessions.
+      presented-sessions: >-
+        **Presented sessions** about Git, HTML and the Unix command line, among
+        others.
+    default_highlights:
+      - teamwork
+      - presented-sessions
+
+education:
+  computing-science-bsc:
+    institution_id: university-of-stirling
+    name: BSc (Hons) Computing Science
+    study_type: BSc (Hons)
+    area: Computing Science
+    date:
+      start: "2022"
+      end: "2026"
+    result: First-class honours
+
+  a-levels:
+    institution_id: thorp-academy
+    name: 3 A Levels
+    date:
+      start: "2019"
+      end: "2021"
+    grade_order: ["A*", "A"]
+    results:
+      - subject: Computer Science
+        grade: "A*"
+      - subject: Maths
+        grade: "A"
+      - subject: Physics
+        grade: "A"
+
+  gcses:
+    institution_id: thorp-academy
+    name: 10 GCSEs
+    date:
+      start: "2016"
+      end: "2019"
+    grade_order: ["9", "D*", "8", "7", "6"]
+    results:
+      - subject: Computer Science
+        grade: "9"
+      - subject: Physics
+        grade: "9"
+      - subject: English Language
+        grade: "9"
+      - subject: English Literature
+        grade: "9"
+      - subject: Religious Education
+        grade: "9"
+      - subject: Maths
+        grade: "8"
+      - subject: BTEC Creative Media
+        grade: "D*"
+      - subject: Biology
+        grade: "7"
+      - subject: Chemistry
+        grade: "7"
+      - subject: Design Technology / Product Design
+        grade: "6"
