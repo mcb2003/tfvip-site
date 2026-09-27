@@ -1,228 +1,26 @@
 ---
 title: "CV"
 date: 2026-09-10T14:19:06+01:00
-type: plain
+type: cv
 draft: true
-params:
-  stylesheets:
-    - css/cv.css
 ---
 
-<header class="row mb-2">
-    <div class="col-md-2">
-        <img src="me.png" alt="Picture of me" class="img-fluid w-100">
-    </div>
-    <div class="col-md-10">
-        <h1 class="display-6">Michael Connor Buchan</h1>
-        <h2 class="h3">First-class Computing Science Graduate</h2>
+{{< cv/header >}}
 
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://thefake.vip">thefake.vip</a></li>
-            <li class="list-inline-item"><a href="https://github.com/mcb2003">github.com/mcb2003</a></li>
-            <li class="list-inline-item"><a
-                    href="https://www.linkedin.com/in/michael-buchan-011995298/">linkedin.com/in/michael-buchan-011995298</a>
-            </li>
-        </ul>
+{{< cv/section id="projects" title="My Best Work" columns="2" class="mb-2" >}}
+{{< cv/project id="indexing-daemon" highlights="kernel-apis portable-index-records constrained-resources evaluation" >}}
+{{< cv/project id="rmlui-accessibility" highlights="incremental-updates integration-testing ai-assisted-development" >}}
+{{< cv/project id="cyal" highlights="pythonic-native-api native-extension-toolchain release-automation" >}}
+{{< cv/project id="paper-linux" highlights="legacy-kernel-userspace hardware-bring-up reverse-engineering-tooling" >}}
+{{< /cv/section >}}
 
-        <p class="lead">I write low-level software, repurpose obsolete hardware, run Linux servers at home and care
-            deeply about open source.</p>
-        <p>(References available upon request)</p>
-    </div>
-</header>
+{{< cv/section id="volunteering" title="Volunteering" columns="2" >}}
+{{< cv/volunteer id="citizens-advice-gateshead-accessibility-consultant" date-style="month" highlights="accessibility-assessment accessibility-report" >}}
+{{< cv/affiliation id="university-of-stirling-computing-club" date-style="year_range" roles="secretary president vice-president" highlights="teamwork presented-sessions" >}}
+{{< /cv/section >}}
 
-<section aria-labelledby="projects-heading" class="cv-section mb-2">
-    <h2 id="projects-heading" class="h4">My Best Work</h2>
-
-    <div class="row row-cols-1 row-cols-md-2">
-
-        <div class="col cv-entry">
-            <h3 class="h5">Dissertation: Indexing Daemon</h3>
-
-            <a href="https://github.com/mcb2003/dissertation">GitHub: mcb2003/dissertation</a>
-            &ndash;
-            <small class="text-body-secondary">C &middot; Linux &middot; LMDB</small>
-
-            <p>a reactive file metadata indexing and storage daemon, designed to power efficient desktop file
-                search.
-            </p>
-
-            <h4 class="h6">Skills</h4>
-            <ul>
-                <li>Worked with low-level kernel APIs covering file descriptors and inodes, event notification,
-                    <code>/proc</code>, POSIX threads and I/O multiplexing.
-                </li>
-                <li>Stored <strong>portable, binary index records</strong> in LMDB in a
-                    suitable format for search queries.</li>
-                <li>Designed for <strong>constrained resource environments</strong>, considering CPU use, memory growth,
-                    I/O behaviour, page-cache interaction and wakeups.</li>
-                <li>Evaluated <strong>correctness and performance</strong> with generated datasets, stress testing,
-                    resource monitoring and verification against canonical filesystem state.</li>
-            </ul>
-        </div>
-
-        <div class="col cv-entry">
-            <h3 class="h5">RmlUi Accessibility</h3>
-
-            <a href="https://github.com/mcb2003/rmlui-accessibility">GitHub: mcb2003/rmlui-accessibility</a>
-            &ndash;
-            <small class="text-body-secondary">C++ &middot; accessibility &middot; UI</small>
-
-            <p>A plugin for a user interface renderer designed for games, allowing screen reader users to read and
-                interact with the interface using AccessKit.</p>
-
-            <h4 class="h6">Skills</h4>
-            <ul>
-                <li>Designed and built <strong>incremental algorithms and efficient data structures</strong> to detect,
-                    coalesce and publish accessibility tree updates <strong>without rebuilding the whole tree</strong>.
-                </li>
-                <li>Built <strong>end-to-end integration tests</strong> against OS accessibility APIs and the Orca
-                    screen reader.</li>
-                <li>Used <strong>AI agents</strong> to implement and iterate, but <strong>independently
-                        designed</strong> its architecture and <strong>reviewed its code</strong> (<a
-                        href="https://github.com/mcb2003/rmlui-accessibility#ai-assisted-development-notice">AI
-                        notice</a>).</li>
-            </ul>
-        </div>
-
-        <div class="col cv-entry">
-            <h3 class="h5">Cyal</h3>
-
-            <a href="https://github.com/lower-elements/cyal">GitHub: lower-elements/cyal</a>
-            &ndash;
-            <small class="text-body-secondary">Python &middot; Cython &middot; Audio</small>
-
-            <p>An idiomatic Python wrapper for the OpenAL 3D audio library.</p>
-
-            <h4 class="h6">Skills</h4>
-            <ul>
-                <li>Designed <strong>Pythonic abstractions over a native C API</strong>, with automatic
-                    resource cleanup, exceptions and object lifetime management.</li>
-                <li>Built a <strong>native Python extension toolchain</strong> which compiles multiple Cython modules
-                    into CPython extension modules.</li>
-                <li>Automated cross-platform source and binary PyPI releases using <strong>GitHub Actions
-                        CI/CD</strong>.</li>
-            </ul>
-        </div>
-
-        <div class="col cv-entry">
-            <h3 class="h5">Paper Linux</h3>
-
-            <a href="https://github.com/lower-elements/paper-linux">GitHub: lower-elements/paper-linux</a>
-            &ndash;
-            <small class="text-body-secondary">Linux &middot; Embedded &middot; drivers</small>
-
-            <p>The beginnings of an open-source alternative OS for e-readers.</p>
-
-            <h4 class="h6">Skills</h4>
-            <ul>
-                <li><strong>Ported modern Linux userspace to a legacy 2.6 vendor kernel</strong>, patching software as
-                    appropriate.</li>
-                <li>Brought up <strong>modern Linux on 2010-eara e-reader hardware</strong>, with Device Tree, power,
-                    input,
-                    storage and SoC support.</li>
-                <li>Built <strong>custom developer and MCP tooling</strong> to index and cross-reference kernel
-                    revisions, symbols and datasheets to help <strong>reverse engineer device behaviour</strong>.
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</section>
-
-
-<section aria-labelledby="volunteering-heading" class="cv-section">
-    <h2 class="h4" id="volunteering-heading">Volunteering</h2>
-
-    <div class="row row-cols-md-2">
-
-        <div class="col cv-entry">
-            <h3 class="h5">Citizens Advice Gateshead</h3>
-            <p>Accessibility consultant<br>
-                <span class="text-body-secondary">August 2025</span>
-            </p>
-            <ul>
-                <li><strong>Assessed the accessibility</strong> of the organisation's internal and external documents,
-                    services and procedures for users of assistive technologies.</li>
-                <li>Constructed a <strong>detailed, rigorous report</strong>, outlining accessibility issues and
-                    potential solutions.
-                </li>
-            </ul>
-        </div>
-
-        <div class="col cv-entry">
-            <h3 class="h5">University of Stirling Computing Club</h3>
-
-            <dl class="row">
-                <dt class="col-sm-6">Secretary</dt>
-                <dd class="col-sm-6">2023-2024</dd>
-                <dt class="col-sm-6">President</dt>
-                <dd class="col-sm-6">2024-2025</dd>
-                <dt class="col-sm-6">Vice President</dt>
-                <dd class="col-sm-6">2025-2026</dd>
-            </dl>
-
-            <ul>
-                <li>Developed my <strong>team-working skills</strong>, working with committee members and
-                    collaborating
-                    with other societies to host hands-on programming, gaming and social sessions.</li>
-                <li><strong>Presented sessions</strong> about Git, HTML and the Unix command line, among others.
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</section>
-
-<section aria-labelledby="qualifications-heading" class="cv-section mb-2">
-    <h2 id="qualifications-heading" class="h4">Qualifications</h2>
-
-    <div class="row row-cols-1 row-cols-md-3">
-
-        <div class="col cv-entry">
-            <h3 class="h5">BSc (Hons) Computing&nbsp;Science</h3>
-            <p class="mb-0">
-                University of Stirling<br>
-                <span class="text-body-secondary">2022-2026</span>
-            </p>
-            <p class="fw-semibold text-primary">First-class honours</p>
-        </div>
-
-        <div class="col cv-entry">
-            <h3 class="h5">3 A Levels</h3>
-            <p>
-                Thorp Academy<br>
-                <span class="text-body-secondary">2019-2021</span>
-            </p>
-            <dl class="row">
-                <dt class="col-sm-8">Computer Science</dt>
-                <dd class="col-sm-4">A*</dd>
-                <dt class="col-sm-8">Maths</dt>
-                <dd class="col-sm-4">A</dd>
-                <dt class="col-sm-8">Physics</dt>
-                <dd class="col-sm-4">A</dd>
-            </dl>
-        </div>
-
-        <div class="col cv-entry">
-            <h3 class="h5">10 GCSEs</h3>
-            <p>
-                Thorp Academy<br>
-                <span class="text-body-secondary">2016-2019</span>
-            </p>
-            <dl class="row">
-                <dt class="col-sm-8">Computer&nbsp;Science, Physics, English&nbsp;Language, English&nbsp;Literature,
-                    Religious&nbsp;Education</dt>
-                <dd class="col-sm-4">9</dd>
-                <dt class="col-sm-8">Maths</dt>
-                <dd class="col-sm-4">8</dd>
-                <dt class="col-sm-8">BTEC Creative Media</dt>
-                <dd class="col-sm-4">D*</dd>
-                <dt class="col-sm-8">Biology, Chemistry</dt>
-                <dd class="col-sm-4">7</dd>
-                <dt class="col-sm-8">Design Technology / Product Design</dt>
-                <dd class="col-sm-4">6</dd>
-            </dl>
-        </div>
-
-    </div>
-</section>
+{{< cv/section id="qualifications" title="Qualifications" columns="3" class="mb-2" >}}
+{{< cv/education id="computing-science-bsc" date-style="year_range" >}}
+{{< cv/education id="a-levels" date-style="year_range" >}}
+{{< cv/education id="gcses" date-style="year_range" >}}
+{{< /cv/section >}}
