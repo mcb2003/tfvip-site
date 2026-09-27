@@ -64,6 +64,9 @@ skills:
 projects:
   indexing-daemon:
     name: "Dissertation: Indexing Daemon"
+    date:
+      start: "2025-09"
+      end: "2026-04-18"
     description: >-
       a reactive file metadata indexing and storage daemon, designed to power
       efficient desktop file search.
@@ -98,6 +101,8 @@ projects:
 
   rmlui-accessibility:
     name: RmlUi Accessibility
+    date:
+      start: "2026-07-20"
     description: >-
       A plugin for a user interface renderer designed for games, allowing screen
       reader users to read and interact with the interface using AccessKit.
@@ -132,6 +137,8 @@ projects:
 
   cyal:
     name: Cyal
+    date:
+      start: "2023-04-07"
     description: An idiomatic Python wrapper for the OpenAL 3D audio library.
     links:
       source:
@@ -159,6 +166,8 @@ projects:
 
   paper-linux:
     name: Paper Linux
+    date:
+      start: "2025-12-02"
     description: The beginnings of an open-source alternative OS for e-readers.
     links:
       source:
