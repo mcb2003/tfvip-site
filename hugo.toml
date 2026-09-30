@@ -12,8 +12,36 @@ description = """\
 
 [params.author]
 name = "Michael Connor Buchan"
+nickname = "TheFake VIP"
+note = """\
+    I write low-level software, resurrect obsolete hardware, build questionable networks, care deeply about free / open source software, and \
+    believe computers and the software they run should be understandable, hackable and owned by the people using them.\
+"""
 email = "mikey@blindcomputing.org"
-url = "https://thefake.vip"
+photo = "images/me.png"
+photo_alt = "Photo of Michael Connor Buchan"
+photo_position = "center top"
+
+  [[params.author.links]]
+  label = "Email"
+  url = "mailto:mikey@blindcomputing.org"
+  rel = "me"
+  [[params.author.links]]
+  label = "Mastodon"
+  url = "https://linuxrocks.online/@thefake_vip"
+  rel = "me"
+  [[params.author.links]]
+  label = "YouTube"
+  url = "https://www.youtube.com/channel/UCRUCCRK2TY0Ns0MlX0qVhYg"
+  rel = "me"
+  [[params.author.links]]
+  label = "Discord"
+  url = "https://discord.com/users/295179787268259851"
+  rel = "me"
+  [[params.author.links]]
+  label = "GitHub"
+  url = "https://github.com/mcb2003"
+  rel = "me"
 
 [params.elemental]
     container = "container-md"
