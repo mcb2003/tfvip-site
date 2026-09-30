@@ -4,7 +4,7 @@ basics:
   name: Michael Connor Buchan
   label: First-class Computing Science Graduate
   image:
-    resource: me.png
+    resource: images/me.png
     alt: Picture of me
   url: https://thefake.vip
   url_label: thefake.vip
