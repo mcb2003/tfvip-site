@@ -24,6 +24,9 @@ basics:
       label: linkedin.com/in/michael-buchan-011995298
 
 organizations:
+  northern-education-trust:
+    name: Northern Education Trust
+    url: https://northerneducationtrust.org
   citizens-advice-gateshead:
     name: Citizens Advice Gateshead
     url: https://citizensadvicegateshead.org.uk/
@@ -193,6 +196,14 @@ projects:
       - legacy-kernel-userspace
       - hardware-bring-up
       - reverse-engineering-tooling
+
+work:
+  northern-education-trust-classroom-assistant-edi-ambassador:
+    organization_id: northern-education-trust
+    position: Classroom Assistant & Equality, Diversity, and Inclusion Ambassador
+    date:
+      start: "2021-09"
+      end: "2022-05"
 
 volunteer:
   citizens-advice-gateshead-accessibility-consultant:
