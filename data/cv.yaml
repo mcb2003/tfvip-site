@@ -23,23 +23,6 @@ basics:
       url: https://www.linkedin.com/in/michael-buchan-011995298/
       label: linkedin.com/in/michael-buchan-011995298
 
-organizations:
-  northern-education-trust:
-    name: Northern Education Trust
-    url: https://northerneducationtrust.org
-  citizens-advice-gateshead:
-    name: Citizens Advice Gateshead
-    url: https://citizensadvicegateshead.org.uk/
-  university-of-stirling-computing-club:
-    name: University of Stirling Computing Club
-    url: https://stirlingcomputer.club
-  university-of-stirling:
-    name: University of Stirling
-    url: https://stir.ac.uk
-  thorp-academy:
-    name: Thorp Academy
-    url: https://tha.northerneducationtrust.org/
-
 skills:
   c:
     name: C
