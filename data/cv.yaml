@@ -204,6 +204,12 @@ work:
     date:
       start: "2021-09"
       end: "2022-05"
+    highlights:
+      cs-assistant: Acted as a **teaching assistant in an A Level Computer Science class**, helping students with course work and past papers and explaining CS concepts.
+      a11y-presentation: Delivered a presentation to keystage 3 students about **disability and equality vs equity**.
+    default_highlights:
+      - cs-assistant
+      - a11y-presentation
 
 volunteer:
   citizens-advice-gateshead-accessibility-consultant:
