@@ -11,7 +11,7 @@ basics:
   location:
     countryCode: GB
   summary: >-
-    I write low-level software, repurpose obsolete hardware, run Linux servers at
+    I write low-level software, repurpose obsolete hardware, run Linux desktops and servers at
     home and care deeply about open source.
   profiles:
     github:
@@ -171,7 +171,7 @@ projects:
     name: Paper Linux
     date:
       start: "2025-12-02"
-    description: The beginnings of an open-source alternative OS for e-readers.
+    description: An open source alternative OS for e-readers in early development.
     links:
       source:
         label: "GitHub: lower-elements/paper-linux"
@@ -186,7 +186,7 @@ projects:
         **Ported modern Linux userspace to a legacy 2.6 vendor kernel**, patching
         software as appropriate.
       hardware-bring-up: >-
-        Brought up **modern Linux on 2010-eara e-reader hardware**, with Device
+        Brought up **modern Linux on 2010-era e-reader hardware**, with Device
         Tree, power, input, storage and SoC support.
       reverse-engineering-tooling: >-
         Built **custom developer and MCP tooling** to index and cross-reference
@@ -208,7 +208,7 @@ work:
 volunteer:
   citizens-advice-gateshead-accessibility-consultant:
     organization_id: citizens-advice-gateshead
-    position: Accessibility consultant
+    position: Accessibility Consultant
     date:
       start: "2025-08"
       end: "2025-08"
