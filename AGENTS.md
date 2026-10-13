@@ -466,3 +466,7 @@ I want to keep exploring the architecture and how best to use Hugo’s native ma
 * low-friction local authoring
 
 Please treat this as an ongoing design conversation. Some ideas above are settled preferences, some are tentative, and some are ideas I may later discard. I care more about preserving the overall ethos and finding elegant, boring solutions than about rigidly implementing every brainstormed feature.
+
+## Private overlay
+
+On my personal machines, the sibling repository at `../tfvip-private` is a private Hugo module overlay that depends on this public site. It contains additional private content that I may expect agents to consult or change when relevant to a task. It is not expected to be available in CI or other checkouts. Keep that content and its generated output out of this public repository and public deployments.
